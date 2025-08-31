@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Le Quatrième Ordre: 1830-1918, une Histoire Alternative du Socialisme Français
 
 @start_menu_2
 
@@ -21,7 +21,7 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1928;
+Q.year = 1830;
 Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
@@ -623,10 +623,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1830
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+It is a dark time for France, bad harvests and economic troubles have been plaguing the countries for years, leading to growing discontent among both rural and urban populations. 
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+King Charles X has only fanned the flames of revolution by replacing the moderate Prime Minister de Martignac by the ultra-royalist and unpopular de Polignac. While the role of socialism is minor in current affairs, perhaps we could take a much more important role in coming conflicts.
 
 
