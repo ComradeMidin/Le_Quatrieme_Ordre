@@ -46,18 +46,18 @@ Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // factions
-Q.factions = ['', 'center', 'labor', 'reformist', 'neorevisionist'];
+Q.factions = ['marxist', 'saint-simonist', 'labor', 'radical-socialist', 'possibilist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
-Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
+Q.marxist_strength = 15;
+Q.marxist_dissent = 20;
+Q.saint-simonist_strength = 30;
+Q.saint-simonist_dissent = 0;
+Q.anarchism_strength = 25;
+Q.anarchism_dissent = 5;
+Q.possibilist_strength = 5;
+Q.possibilist_dissent = 10;
+Q.radical-socialist_strength = 25;
+Q.radical-socialist_dissent = 5;
 
 // secret events...
 Q.unions_independent = 0;
@@ -65,8 +65,9 @@ Q.centrists_resign = 0;
 Q.left_split = 0;
 Q.reformists_resigned = 0;
 
-// have we discovered neorevisionism?
-Q.neorevisionism = 0;
+// have we discovered marxism?
+Q.marxism = 0;
+Q.possibilist = 0;
 
 // crisis_urgency indicates how seriously the SPD is taking the economic crisis - scale from 0 to 10.
 Q.crisis_urgency = 0;
@@ -288,7 +289,7 @@ Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
 
 
-// Current Reichstag composition
+// Current Parliament composition
 // % of Reichstag in Jan 1928
 // source: wikipedia
 // note: the Z figures also include the BVP (Bavarian people's party)
@@ -329,10 +330,10 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
-// starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
+Q.king = "Charles X";
+// starting prime minister: Jules de Polignac 
+Q.chancellor = "de Polignac";
+Q.chancellor_party = '';
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
